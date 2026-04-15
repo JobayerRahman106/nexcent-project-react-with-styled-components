@@ -37,6 +37,11 @@ const Sidebyside = styled.div`
 `;
 const Right = styled.div`
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
 `;
 const Heading = styled.h1`
     color: #4D4D4D;
